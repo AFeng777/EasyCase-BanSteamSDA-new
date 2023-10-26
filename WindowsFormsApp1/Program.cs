@@ -47,6 +47,7 @@ namespace MAFileProcessor
                     // 将文件内容解析为 JSON 对象
                     JObject jsonObject = JObject.Parse(content);
 
+
                     // 检查属性是否存在，然后将其设置为 null
                     if (jsonObject.ContainsKey("serial_number"))
                     {
