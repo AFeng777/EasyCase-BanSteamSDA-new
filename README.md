@@ -1,4 +1,4 @@
-请在右边Releases下载安装包或则加入群聊
+请在右边Releases下载压缩包或则加入群聊
 <li>点击链接加入群聊【EasyCase交流群】： 
 <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=QGvNUNVcKThE9Dn_VIkFNb8Vm9QpKzbf&authKey=I%2F3boJUV0qXbXjMDJPCA9%2Fi5SxREZPA4L5tDlK05BnFpCuugX8VbwtkLmzK%2Bdnfc&noverify=0&group_code=720210074">720210074</a></li>  
 <p> </p>
