@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCase-令牌阉割-1.0.0", "WindowsFormsApp1\EasyCase-令牌阉割-1.0.0.csproj", "{2EFD4909-C8F7-4448-8C06-0916ACBA140B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCase-令牌阉割-v1.0.2", "WindowsFormsApp1\EasyCase-令牌阉割-v1.0.2.csproj", "{2EFD4909-C8F7-4448-8C06-0916ACBA140B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

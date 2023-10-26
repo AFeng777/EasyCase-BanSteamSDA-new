@@ -47,15 +47,46 @@ namespace MAFileProcessor
                     // 将文件内容解析为 JSON 对象
                     JObject jsonObject = JObject.Parse(content);
 
-                    // 删除特定的键值对
-                    jsonObject.Remove("identity_secret");
-                    jsonObject.Remove("revocation_code");
+                    // 检查属性是否存在，然后将其设置为 null
+                    if (jsonObject.ContainsKey("serial_number"))
+                    {
+                        jsonObject["serial_number"] = "";
+                    }
+                    if (jsonObject.ContainsKey("revocation_code"))
+                    {
+                        jsonObject["revocation_code"] = "";
+                    }
+                    if (jsonObject.ContainsKey("uri"))
+                    {
+                        jsonObject["uri"] = "";
+                    }
+                    if (jsonObject.ContainsKey("token_gid"))
+                    {
+                        jsonObject["token_gid"] = "";
+                    }
+                    if (jsonObject.ContainsKey("identity_secret"))
+                    {
+                        jsonObject["identity_secret"] = "";
+                    }
+                    if (jsonObject.ContainsKey("secret_1"))
+                    {
+                        jsonObject["secret_1"] = "";
+                    }
+                    if (jsonObject.ContainsKey("device_id"))
+                    {
+                        jsonObject["device_id"] = "";
+                    }
+                    if (jsonObject.ContainsKey("server_time"))
+                    {
+                        jsonObject["server_time"] = 0;
+                    }
 
                     // 获取 Session 对象
                     JObject sessionObject = (JObject)jsonObject["Session"];
 
                     if (sessionObject != null)
                     {
+                        
                         // 获取 SteamID
                         long steamID = (long)sessionObject["SteamID"];
 
